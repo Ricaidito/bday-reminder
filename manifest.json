@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Birthday Reminder",
+  "description": "An extension that allows you to keep track of birthdays of your friends and family.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "assets/bday-icon.png"
+  },
+  "permissions": ["storage", "notifications"]
+}

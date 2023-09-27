@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <header>Birthday Reminder</header>
+    <div class="container">
+      <div class="prompt-section">
+        <h2>Add a birthday</h2>
+        <form id="birthdayForm">
+          <label for="personName">Name:</label>
+          <input type="text" id="personName" name="personName" required />
+          <label for="birthdate">Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate" required />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Upcoming Birthdays</h2>
+      <div id="birthdays-container"></div>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
